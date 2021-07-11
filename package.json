@@ -1,0 +1,40 @@
+{
+  "name": "mernMovie",
+  "version": "1.0.0",
+  "description": "This is movie website",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "admin": "npm start --prefix admin",
+    "front": "npm start --prefix front",
+    "dev": "concurrently \" npm run server \" \" npm run admin \" \" npm run front \""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "formidable": "^1.2.2",
+    "get-video-duration": "^3.1.0",
+    "google-auth-library": "^7.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.12.13",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.1",
+    "react-player": "^2.9.0",
+    "sharp": "^0.28.3",
+    "socket.io": "^4.1.2",
+    "sweetalert2": "^11.0.17",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

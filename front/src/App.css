@@ -1,0 +1,43 @@
+.sign__group i{
+  position: absolute;
+  color: red;
+  right: 15px;
+  top: 13px;
+  font-size: 20px;
+  cursor: pointer;
+}
+select.catalog__sel {
+  width: 120px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+@media (min-width: 1200px){
+  .section__interview .owl-prev, .section__interview .owl-next {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50% !important;
+      top: 50%;
+      margin-top: -30px !important;
+      background-color: #151f30 !important;
+  }
+  .section__interview .owl-prev svg, .section__interview .owl-next svg {
+    stroke: #e0e0e0;
+    transition: stroke 0.5s;
+}
+  .section__interview .owl-prev:hover, .section__interview .owl-next:hover {
+      background-color: #2f80ed;
+  }
+  .section__interview .owl-prev {
+      right: 100%;
+      margin-right: 30px !important;
+  }
+  .section__interview .owl-next {
+      left: 100%;
+      margin-left: 30px !important;
+  }
+}
